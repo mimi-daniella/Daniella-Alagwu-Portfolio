@@ -8,7 +8,8 @@ export default function Projects() {
       frontImage: "/javajolt.png",
       backImage: "/javajolt2.png",
       title: "JavaJolt",
-      description: "Fun Java quiz application for testing and improving knowledge on the Java programming language.",
+      description:
+        "I built a quiz app that helps learners & professionals practice Java concepts interactively. The hardest part was designing a question engine that could randomize & validate answers reliably. Working in & leading a group of four, I focused on backend logic & UI design, which strengthened my Spring Boot fundamentals & taught me how to collaborate effectively.",
       demoLink: "https://javajolt.onrender.com/",
       githubLink: "https://github.com/mimi-daniella/JavaJolt",
     },
@@ -17,7 +18,8 @@ export default function Projects() {
       frontImage: "/bidspeed2.png",
       backImage: "/bidspeed.png",
       title: "BidSpeed",
-      description: "For the collectors and shopaholics, Bidspeed is an app where rare items and other artifacts are auctioned for sale.",
+      description:
+        "I created an auction platform where collectors can bid on rare items in real time. Implementing live bidding logic and ensuring fairness was challenging. I learned how to handle concurrent user actions and integrate secure payment flows.",
       demoLink: "https://bidspeed-auctions.vercel.app/",
       githubLink: "https://github.com/mimi-daniella/bidspeed",
     },
@@ -26,7 +28,8 @@ export default function Projects() {
       frontImage: "/wevote.png",
       backImage: "/wevote2.png",
       title: "WeVote",
-      description: "Onlne voting platform promoting fair elections for vast positions.",
+      description:
+        "I developed an online voting system to promote transparent elections. The toughest part was ensuring vote integrity and preventing duplicate submissions. In a team of five, I handled the UI and voting process, gaining experience with authentication, database security, and building systems that mirror real-world governance.",
       demoLink: "https://wevote-xceg.onrender.com/",
       githubLink: "https://github.com/mimi-daniella/voting-system",
     },
@@ -35,7 +38,8 @@ export default function Projects() {
       frontImage: "/homflow.png",
       backImage: "/homflow2.png",
       title: "HomFlow",
-      description: "HomFlow is a smart home automation app, letting users connect to & control/monitor their (TV) devices from anywhere.",
+      description:
+        "I built a smart home automation app that lets users control devices remotely. The challenge was integrating multiple device APIs and keeping the interface intuitive. I learned about IoT communication protocols, ",
       demoLink: "https://homflow.onrender.com/",
       githubLink: "https://github.com/mimi-daniella/HomFlow",
     },
@@ -43,8 +47,9 @@ export default function Projects() {
       title: "Portfolio",
       frontImage: "/portfolio.png",
       backImage: "/portfolio2.png",
-      title:"My Portfolio",
-      description: "Work portfolio showcasing my tech skills.",
+      title: "My Portfolio",
+      description:
+        "I created my personal portfolio to showcase projects and skills. The hardest part was balancing design aesthetics with performance. I learned how to optimize Next.js for fast loading and how to present technical work in a way that appeals to recruiters.",
       demoLink: "#",
       githubLink: "#",
     },
@@ -81,7 +86,7 @@ export default function Projects() {
               <p className="text-black font-bold text-xl md:text-2xl text-center mt-4">
                 {project.title}
               </p>
-              <p className="text-gray-400 text-sm text-center mt-2">
+              <p className="text-gray-500 text-sm text-center mt-2">
                 {project.description}
               </p>
 

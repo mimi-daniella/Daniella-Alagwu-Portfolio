@@ -56,3 +56,27 @@ body {
 .nav-link:hover::after {
   width: 100%;
 }
+
+.drawer-open {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+.drawer-closed {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+/* blinking cursor on Safari */
+.Typewriter__cursor {
+  -webkit-animation: blink 1s infinite; /* Safari prefix */
+  animation: blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}

@@ -13,27 +13,31 @@ export default function BackToTopButton() {
         setIsVisible(false);
       }
     };
-    window.addEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility, { passive: true });
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if ("scrollBehavior" in document.documentElement.style) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      window.scrollTo(0, 0);
+    }
   };
 
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-50 px-6 py-3 rounded-[50%/30%] shadow-lg cursor-pointer 
-        bg-gradient-to-r from-[var(--green)] via-[var(--pink-light)] to-[var(--blue)]
-        text-black font-semibold flex items-center gap-2
-        hover:bg-gradient-to-r hover:from-[var(--blue)] hover:via-[var(--pink-dark)] hover:to-[var(--green)]
-        transform transition-all duration-500
-        ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
-      `}
+      type="button"
+      className={`fixed bottom-6 right-6 z-50 px-6 py-3 rounded-[50%/30%] shadow-lg cursor-pointer pointer-events-auto
+    bg-gradient-to-r from-[var(--green)] via-[var(--pink-light)] to-[var(--blue)]
+    text-black font-semibold flex items-center gap-2
+    hover:bg-gradient-to-r hover:from-[var(--blue)] hover:via-[var(--pink-dark)] hover:to-[var(--green)]
+    transform transition-all duration-500
+    ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
+  `}
     >
       <FaArrowUp />
-      {/* <span>Top</span> */}
     </button>
   );
 }
