@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "devicon/devicon.min.css";
-import { Toaster } from "react-hot-toast";
+import Toaster from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
