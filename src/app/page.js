@@ -8,12 +8,15 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import BackToTopButton from "@/components/BackToTop";
 import { Typewriter } from "react-simple-typewriter";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <main className="scroll-smooth w-full bg-white min-h-screen">
       <Navbar />
-
       <BackToTopButton />
 
       {/* Hero section */}
@@ -22,29 +25,32 @@ export default function Home() {
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center"
         style={{ backgroundImage: "url('/desk_board.jpeg')" }}
       >
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/70"></div>
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white">
             I'm Daniella
           </h1>
-          <p className="mt-4 text-xl md:text-2xl  text-gray-200">
+          <p className="mt-4 text-xl md:text-2xl text-gray-200">
             ...and I'm &nbsp;
-            <span className="text-[var(--green)]">
-              <Typewriter
-                words={[
-                  "a Software Engineer",
-                  "a Full Stack Developer",
-                  "an AI/Macine Learning Engineer",
-                ]}
-                loop={false}
-                cursor
-                cursorStyle="|"
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              />
+            <span className="text-[var(--green)] inline-block">
+              {mounted ? (
+                <Typewriter
+                  words={[
+                    "a Software Engineer",
+                    "a Full Stack Developer",
+                    "an AI/Machine Learning Engineer",
+                  ]}
+                  loop={false}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              ) : (
+                "a Software Engineer"
+              )}
             </span>
           </p>
           <p className="mt-8 text-sm font-light text-gray-500 italic">
@@ -53,24 +59,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About me */}
       <AboutSection />
-
-      {/* Skills */}
       <Skills />
-
-      {/* Experience */}
       <Experience />
-
-      {/* Projects */}
-      <Projects />  
-
-      {/* Contact */}
+      <Projects />
       <Contact />
-
-      {/* Footer */}
       <Footer />
-      
     </main>
   );
 }
