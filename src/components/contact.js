@@ -6,6 +6,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
 import { RotatingLines } from "react-loader-spinner";
 
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -87,7 +88,7 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-black">Phone</h3>
-                  <p className="text-black ">+234 903 082 7482</p>
+                  <a href="tel:+2349030827482" className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors ">+234 903 082 7482</a>
                 </div>
               </li>
               <li className="flex">
@@ -96,7 +97,7 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-black">Email</h3>
-                  <p className="text-black ">mmesomaalagwu@gmail.com</p>
+                  <a href="mailto:mmesomaalagwu@gmail.com?subject=Portfolio%20Inquiry" className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors ">mmesomaalagwu@gmail.com</a>
                 </div>
               </li>
               <li>

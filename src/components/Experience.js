@@ -16,7 +16,7 @@ export default function Experience() {
     {
       label: "Educational Background",
       value: "Diploma In Software Engineering",
-      school: "-Aptech Learning",
+      school: "-Aptech Computer Education",
       note: "In Progress",
       accent: "var(--green)",
     },
