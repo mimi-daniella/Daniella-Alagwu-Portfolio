@@ -53,9 +53,17 @@ export default function Home() {
               )}
             </span>
           </p>
-          <p className="mt-8 text-sm font-light text-gray-500 italic">
+          {/* <p className="mt-8 text-sm font-light text-gray-500 italic">
             “Engineering clarity from complexity <br /> — that's my craft.”
-          </p>
+          </p> */}
+          <a
+            href="/Daniella_Alagwu.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-10 lg:mt-10 px-6 py-3 rounded-sm shadow-lg bg-[var(--pink-dark)] text-black font-semibold transition-colors duration-200 animate-pulse hover:scale-105"
+          >
+            CHECK OUT MY RESUME
+          </a>
         </div>
       </section>
 

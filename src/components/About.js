@@ -43,14 +43,6 @@ export default function AboutSection() {
           integration, while continuing to grow my skills in full‑stack
           development.
         </p>
-        <a
-          href="/Daniella_Alagwu_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block lg:mt-6 px-6 py-3 rounded-sm shadow-lg bg-[var(--pink-dark)] text-black font-semibold transition-colors duration-300"
-        >
-          CHECK OUT MY RESUME
-        </a>
       </div>
     </section>
   );

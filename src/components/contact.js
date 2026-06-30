@@ -6,7 +6,6 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
 import { RotatingLines } from "react-loader-spinner";
 
-
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -61,7 +60,8 @@ export default function Contact() {
             Get in Touch
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-black ">
-            Reach out to work with me, collaborations, <br/> questions, or just to say hi.
+            Reach out to work with me, collaborations, <br /> questions, or just
+            to say hi.
           </p>
         </div>
 
@@ -88,7 +88,12 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-black">Phone</h3>
-                  <a href="tel:+2349030827482" className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors ">+234 903 082 7482</a>
+                  <a
+                    href="tel:+2349030827482"
+                    className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors "
+                  >
+                    +234 903 082 7482
+                  </a>
                 </div>
               </li>
               <li className="flex">
@@ -97,7 +102,12 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-black">Email</h3>
-                  <a href="mailto:mmesomaalagwu@gmail.com?subject=Portfolio%20Inquiry" className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors ">mmesomaalagwu@gmail.com</a>
+                  <a
+                    href="mailto:daniellaalagwu@gmail.com?subject=Portfolio%20Inquiry"
+                    className="text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors "
+                  >
+                    daniellaalagwu@gmail.com
+                  </a>
                 </div>
               </li>
               <li>
@@ -202,7 +212,7 @@ export default function Contact() {
                 className="w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-[var(--blue)] focus:ring-[var(--blue)] dark:bg-slate-800 dark:text-gray-300"
               ></textarea>
             </div>
- 
+
             <button
               type="submit"
               className="w-full bg-[var(--green)] cursor-pointer text-black px-6 py-3 rounded-md font-semibold hover:bg-[var(--green)] transition flex items-center justify-center"
