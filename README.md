@@ -28,7 +28,7 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/mimi-daniella/portfolio.git
-cd portfolio
+cd my-portfolio
 npm install
 ```
 
