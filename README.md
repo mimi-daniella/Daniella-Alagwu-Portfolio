@@ -46,9 +46,9 @@ npm run dev
 Open https://localhost:3000 in your browser 
 
 ## CONFIGURATIONS
-- Create .env.local file in the root directory and add:
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+- Create `.env.local` file in the root directory and add:
+```NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id ```
+```NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id```
+```NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key```
 
 
