@@ -9,7 +9,7 @@
 A modern developer portfolio built with **Next.js**, showcasing my skills, projects, and contact form powered by **EmailJS**.
 
 ## DEMO
-[![Homepage](docs/homepage.png)](https://daniella-alagwu.vercel.app/)
+[![Homepage](docs/portfolio.png)](https://daniella-alagwu.vercel.app/)
 ![Contact Form](docs/contact.png)
 
 ## FEATURES
