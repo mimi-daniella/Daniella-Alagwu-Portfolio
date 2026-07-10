@@ -10,7 +10,7 @@ A modern developer portfolio built with **Next.js**, showcasing my skills, proje
 
 ## DEMO
 [![Homepage](docs/portfolio.png)](https://daniella-alagwu.vercel.app/)
-![Contact Form](docs/contact.png)
+
 
 ## FEATURES
 - Responsive design with Tailwind CSS
