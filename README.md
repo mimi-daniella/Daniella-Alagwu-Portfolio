@@ -1,6 +1,16 @@
-# DANIELLA'S PORTFOLIO
+# Personal Portfolio - Software Engineer
+
+![Next.js](https://img.shields.io/badge/Next.js-13-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-pink)
+![EmailJS](https://img.shields.io/badge/EmailJS-active-green)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+
 
 A modern developer portfolio built with **Next.js**, showcasing my skills, projects, and contact form powered by **EmailJS**.
+
+## DEMO
+[![Homepage](docs/homepage.png)](https://daniella-alagwu.vercel.app/)
+![Contact Form](docs/contact.png)
 
 ## FEATURES
 - Responsive design with Tailwind CSS
@@ -9,12 +19,8 @@ A modern developer portfolio built with **Next.js**, showcasing my skills, proje
 - Resume download link
 - Deployed live on Vercel
 
-
 ## LIVE DEMO 
  [View Portfolio on Vercel](https://daniella-alagwu.vercel.app/)
-
-
-## VISUAL REPRESENTAION
 
 
 ## REQUIREMENTS
