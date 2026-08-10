@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         "I built a quiz app that helps learners & professionals practice Java concepts interactively. The hardest part was designing a question engine that could randomize & validate answers reliably. Working in & leading a group of four, I focused on backend logic & UI design, which strengthened my Spring Boot fundamentals & taught me how to collaborate effectively.",
       demoLink: "https://javajolt.onrender.com/",
-      githubLink: "https://github.com/mimi-daniella/JavaJolt",
+      githubLink: "https://github.com/daniella-alagwu/JavaJolt",
     },
     {
       title: "Bidspeed",
@@ -21,7 +21,7 @@ export default function Projects() {
       description:
         "I created an auction platform where collectors can bid on rare items in real time. Implementing live bidding logic and ensuring fairness was challenging. I learned how to handle concurrent user actions and integrate secure payment flows.",
       demoLink: "https://bidspeed-auctions.vercel.app/",
-      githubLink: "https://github.com/mimi-daniella/bidspeed",
+      githubLink: "https://github.com/daniella-alagwu/BidSpeed",
     },
     {
       title: "WeVote - Online Voting System",
@@ -31,7 +31,7 @@ export default function Projects() {
       description:
         "I developed an online voting system to promote transparent elections. The toughest part was ensuring vote integrity and preventing duplicate submissions. In a team of five, I handled the UI and voting process, gaining experience with authentication, database security, and building systems that mirror real-world governance.",
       demoLink: "https://wevote-xceg.onrender.com/",
-      githubLink: "https://github.com/mimi-daniella/voting-system",
+      githubLink: "https://github.com/daniella-alagwu/voting-system",
     },
     {
       title: "HomFlow",
@@ -41,7 +41,7 @@ export default function Projects() {
       description:
         "I built a smart home automation app that lets users control devices remotely. The challenge was integrating multiple device APIs and keeping the interface intuitive. I learned about IoT communication protocols, ",
       demoLink: "https://homflow.onrender.com/",
-      githubLink: "https://github.com/mimi-daniella/HomFlow",
+      githubLink: "https://github.com/daniella-alagwu/HomFlow",
     },
     {
       title: "Portfolio",
